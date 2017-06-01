@@ -1,0 +1,81 @@
+.filter-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.filter-modal {
+	display: table;
+	background-color: #fafafa;
+	max-width: 640px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh;
+	padding: 32px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.modal-title-container {
+	width: 100%;
+    overflow: hidden;
+}
+.modal-title-container h3 {
+	margin-top: 0;
+	float: left;
+	text-align: left;
+}
+.modal-title-container .confirm {
+	float: right;
+    margin-bottom: 32px;
+    line-height: 39px;
+}
+.modal-group {
+	float: left;
+	width: 50%;
+	padding-right: 16px;
+	box-sizing: border-box;
+	text-align: left;
+}
+label.group-title {
+	float: left;
+	font-size: 24px;
+	margin-bottom: 16px;
+	clear: both;
+}
+label.radio {
+	float: left;
+	clear: both;
+	padding: 0 16px;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 8px;
+	width: 100%;
+	box-sizing: border-box;
+}
+label.radio input {
+	display: none;
+}
+label.radio span {
+	display: block;
+	margin-left: -16px;
+	padding: 16px;
+	text-transform: capitalize;
+	border-radius: 4px;
+	transition: all 0.1s ease-out;
+}
+label.radio:hover span {
+	color: #AE6621;
+}
+label.radio input:checked + span {
+	color: #AE6621;
+	background-color: #ffffff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+label.radio input:disabled + span {
+	color: #999999;
+	cursor: default;
+}

@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-header, .App-footer {
+  background-color: #222;
+    padding: 20px;
+    color: white;
+    background-image: url(./img/logo.svg);
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.App-footer {
+	margin-top: 32px;
+	float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.App-footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: #AE6621;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

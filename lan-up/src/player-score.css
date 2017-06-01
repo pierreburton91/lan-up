@@ -1,0 +1,38 @@
+.score-container {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 640px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    font-size: 24px;
+    border-left: 4px solid #ffffff;
+}
+.score-container:nth-child(1) {
+	border-left-color: gold;
+}
+.score-container:nth-child(2) {
+	border-left-color: silver;
+}
+.score-container:nth-child(3) {
+	border-left-color: brown;
+}
+.ranking {
+	float: left;
+    padding: 20px;
+    color: #999999;
+}
+.nickname {
+	float: left;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.score {
+	float: right;
+    padding: 20px;
+    font-weight: bold;
+}

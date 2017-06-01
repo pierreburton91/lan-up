@@ -1,0 +1,48 @@
+.log-container {
+	width: 100%;
+	max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden; 
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.log-session-container {
+	float: left;
+	width: 70%;
+	position: relative;
+	display: table-cell;
+}
+.log-server {
+	float: left;
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #df9958;
+    margin-bottom: 8px;
+}
+.log-game {
+	float: left;
+    text-align: left;
+    width: 33.333%;
+    text-transform: uppercase;
+}
+.log-session {
+	float: left;
+    width: 33.333%;
+    text-align: left;
+}
+.log-score {
+	float: left;
+    width: 33.333%;
+    text-align: right;
+    font-weight: 600;
+}
+.log-score span {
+	font-weight: 400;
+}

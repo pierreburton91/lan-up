@@ -1,0 +1,77 @@
+.search-box-container {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.search-box {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 0 1px rgba(0,0,0,0.3);
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.search-bar {
+	float: left;
+	width: 80%;
+	background: transparent;
+	border: none;
+	padding: 16px;
+	font-size: 24px;
+	outline: none;
+	box-sizing: border-box;
+}
+.search-bar::placeholder {
+	color: #999999;
+}
+.search-submit {
+	float: left;
+	width: 20%;
+	height: 61px;
+	background-image: url(./img/search.svg);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: center;
+	background-color: #AE6621;
+	border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search-submit:active {
+	background-color: #5a3411;
+}
+.search-datalist {
+	width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+.datalist-title {
+	text-align: left;
+    color: #666666;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-indent: 8px;
+}
+.datalist-item {
+	background-color: #ffffff;
+	color: #666666;
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 16px;
+	padding: 16px;
+	cursor: pointer;
+	transition: all 0.1s ease-out;
+}
+.datalist-item:last-child {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.datalist-item:hover {
+	background-color: #eeeeee;
+	color: #222222;
+}
